@@ -99,7 +99,22 @@ body {
   gap: 40px;
   margin-left: 76px;
 }
-
+.navigation-list li:first-child {
+  position: relative;
+}
+.navigation-list li:first-child a {
+  color: #404bbf;
+}
+.navigation-list li:first-child::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+}
 .navigation-list li a {
   font-weight: 500;
   color: #2e2f42;
