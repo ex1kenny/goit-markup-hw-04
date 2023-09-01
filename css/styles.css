@@ -403,6 +403,10 @@ h6 {
 }
 .footer-container {
   display: flex;
+  align-items: baseline;
+}
+.footer-container div {
+  margin-right: 120px;
 }
 .footer-icon-list {
   display: flex;
@@ -411,9 +415,7 @@ h6 {
 .footer-icon-item {
   flex-basis: calc((100% - 48px) / 4);
 }
-.footer-media {
-  padding-left: 120px;
-}
+
 .footer-icon-active {
   width: 40px;
   height: 40px;
