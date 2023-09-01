@@ -104,8 +104,9 @@ body {
 }
 .navigation-list li:first-child a {
   color: #404bbf;
+  position: relative;
 }
-.navigation-list li:first-child::after {
+.navigation-list li:first-child a::after {
   content: "";
   position: absolute;
   width: 100%;
